@@ -15,28 +15,28 @@ const About = () => {
           <div className="space-y-5 text-muted-foreground leading-relaxed">
             <p>
               I'm a student developer who genuinely enjoys understanding how things work under the hood. 
-              I started programming out of curiosity and built my first project in Class 12.
-              That experience taught me more about problem-solving than any tutorial could.
+              I started programming out of curiosity and built my first complete project in Class 12 — 
+              an experience that taught me more about problem-solving than any tutorial ever could.
             </p>
 
             <p>
               Right now, I'm focused on strengthening my fundamentals: data structures, algorithms, 
-              and writing clean, readable code. I believe that a strong foundation makes everything else 
-              easier to learn. I'm not chasing every new framework, I'd rather understand <em>why</em>
-               something works before using it.
+              and writing clean, readable code. I believe a strong foundation makes everything else 
+              easier to learn. I'm not chasing every new framework; I prefer understanding <em>why</em> 
+              something works before using it.
             </p>
 
             <p>
-              I work primarily with <span className="text-foreground font-medium">Python</span> and{" "}
+              I primarily work with <span className="text-foreground font-medium">Python</span> and{" "}
               <span className="text-foreground font-medium">C++</span> for algorithmic problem-solving, 
-              and I'm building my web development skills with HTML, CSS, and JavaScript. I've also started 
-              exploring machine learning basics to understand how intelligent systems are built.
+              and I'm developing my web skills using HTML, CSS, and JavaScript. I've also started 
+              exploring the basics of machine learning to understand how intelligent systems are built.
             </p>
 
             <p>
-              What drives me is the satisfaction of solving a problem after hours of thinking about it, 
-              and the excitement of building something that actually works. I'm not claiming to be an 
-              expert, I'm just someone who's putting in the work to get better every day.
+              What drives me is the satisfaction of solving a problem after hours of thinking and 
+              the excitement of building something that actually works. I don't claim to be an 
+              expert — just someone consistently putting in the work to get better every day.
             </p>
           </div>
 
