@@ -31,7 +31,7 @@ Depending on the version, the portfolio uses:
 
 ---
 
-## 📂 Folder Structure (Typical)
+## 📂 Folder Structure
 
 ```
 portfolio/
