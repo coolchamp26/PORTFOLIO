@@ -9,12 +9,12 @@ It serves as a central place to showcase what I build, what I know, and how I ap
 
 ## ✨ Features
 
-* Modern, minimal UI
-* Fully responsive (mobile, tablet, desktop)
-* Clear project showcase with GitHub links
-* Well-structured skills section
-* Simple and readable content
-* Fast loading and easy navigation
+* **Stark Engineering Aesthetic**: A clean, high-contrast B&W design focused on typography and layout.
+* **Sophisticated Animations**: Line-by-line reveals, staggered entrance effects, and smooth scroll transitions.
+* **Context-Aware Content**: Dynamic labeling (e.g., CGPA vs Score) and refined academic archiving.
+* **Interactive Contact Section**: Integrated Lucide icons and smooth-scroll navigation.
+* **Fully Responsive**: Optimized for all viewports with fluid typographic scaling.
+* **Fast & Lightweight**: Built with Vite and React for near-instant load times.
 
 ---
 
@@ -88,11 +88,10 @@ The site is designed to be easily deployed on:
 
 ## 🌱 Future Improvements
 
-* Dark mode support
-* Improved animations and transitions
-* Better accessibility (ARIA, keyboard navigation)
-* Performance optimizations
-* Blog or notes section
+* **Advanced Interactive Visualizations**: D3.js or Three.js integrations for data-driven storytelling.
+* **Refined Accessibility**: Continual audits for screen reader compatibility and keyboard navigation.
+* **Performance Optimizations**: Further reducing bundle size and asset loading times.
+* **Personal Blog Section**: Integration of a markdown-based technical blog.
 
 ---
 
