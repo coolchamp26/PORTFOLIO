@@ -33,7 +33,7 @@ const projects: Project[] = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-16 md:py-32 px-6 md:px-12 bg-background">
+    <section id="projects" className="py-12 md:py-20 px-6 md:px-12 bg-background">
       <div className="container-fluid max-w-screen-2xl mx-auto">
         <div className="mb-16 impact-border">
           <h2 className="text-large">PROJECTS</h2>
@@ -51,7 +51,7 @@ const Projects = () => {
               </div>
 
               <div className="md:col-span-5">
-                <h3 className="text-large leading-[0.8] mb-12 italic-hover">
+                <h3 className="text-4xl md:text-5xl leading-[0.9] mb-12">
                   {project.title}
                 </h3>
                 <div className="flex flex-wrap gap-2 mb-8">
@@ -60,14 +60,14 @@ const Projects = () => {
                   ))}
                 </div>
                 {project.githubUrl && (
-                  <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 text-2xl font-bold uppercase tracking-tighter hover:italic hover:underline transition-all">
+                  <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 text-2xl font-bold uppercase tracking-tighter hover:underline transition-all">
                     Explore Repository <Github className="h-6 w-6" />
                   </a>
                 )}
               </div>
 
               <div className="md:col-span-6 space-y-12">
-                <p className="text-2xl md:text-3xl leading-tight font-medium text-muted-foreground uppercase tracking-tight">
+                <p className="text-2xl md:text-3xl leading-tight font-medium text-muted-foreground tracking-tight">
                   {project.description}
                 </p>
 

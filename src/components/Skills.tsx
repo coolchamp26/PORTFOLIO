@@ -19,10 +19,10 @@ const skillCategories = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-16 md:py-32 px-6 md:px-12 bg-secondary/20">
+    <section id="skills" className="py-12 md:py-20 px-6 md:px-12 bg-secondary/20">
       <div className="container-fluid max-w-screen-2xl mx-auto">
         <div className="mb-16 impact-border">
-          <h2 className="text-large">Technical <br /> Proficiency</h2>
+          <h2 className="text-large">SKILLS</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-24">
@@ -37,7 +37,7 @@ const Skills = () => {
               </h3>
               <ul className="space-y-4">
                 {category.skills.map(skill => (
-                  <li key={skill} className="text-2xl md:text-3xl font-bold tracking-tight hover:italic transition-all">
+                  <li key={skill} className="text-2xl md:text-3xl font-bold tracking-tight transition-all">
                     {skill}
                   </li>
                 ))}

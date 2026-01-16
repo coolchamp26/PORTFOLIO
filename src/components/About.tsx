@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section id="about" className="py-16 md:py-32 px-6 md:px-12 bg-background">
+    <section id="about" className="py-12 md:py-20 px-6 md:px-12 bg-background">
       <div className="container-fluid max-w-screen-2xl mx-auto">
         <div className="mb-16 impact-border">
           <h2 className="text-large">ABOUT ME</h2>
@@ -8,10 +8,10 @@ const About = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-24">
           <div className="md:col-span-5">
-            <h3 className="text-4xl md:text-5xl leading-[0.9] italic font-serif tracking-tight">
+            <h3 className="text-4xl md:text-5xl leading-[0.9] italic font-serif tracking-tight normal-case">
               "Jack of all trades, <br />
               master of none. <br />
-              But sometimes better <br />
+              but sometimes better <br />
               than master of one."
             </h3>
           </div>

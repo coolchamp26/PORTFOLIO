@@ -31,7 +31,7 @@ const Navbar = () => {
           }`}
       >
         <div className="container-fluid flex items-center justify-between mx-auto max-w-screen-2xl">
-          <a href="#" className="text-xl font-black tracking-tighter hover:italic transition-all overflow-hidden block">
+          <a href="#" className="text-xl font-black tracking-tighter transition-all overflow-hidden block">
             <span className="block animate-reveal opacity-0 fill-mode-forwards">ASHAMBAR</span>
           </a>
 
@@ -79,7 +79,7 @@ const MobileNavLink = ({ href, children, num, onClick }: { href: string; childre
   >
     <div className="flex items-baseline gap-4">
       <span className="text-xs font-bold text-muted-foreground font-serif italic">{num}</span>
-      <span className="text-5xl font-black uppercase tracking-tighter transition-transform duration-500 group-hover:italic group-hover:translate-x-4 block">
+      <span className="text-5xl font-black uppercase tracking-tighter transition-transform duration-500 group-hover:translate-x-4 block">
         {children}
       </span>
     </div>
@@ -90,7 +90,7 @@ const NavLink = ({ href, children, onClick }: { href: string; children: React.Re
   <a
     href={href}
     onClick={onClick}
-    className="text-[10px] font-bold uppercase tracking-[0.3em] hover:italic transition-all relative group"
+    className="text-[10px] font-bold uppercase tracking-[0.3em] transition-all relative group"
   >
     {children}
     <span className="absolute -bottom-1 left-0 w-0 h-px bg-foreground transition-all duration-500 group-hover:w-full" />

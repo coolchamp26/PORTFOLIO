@@ -111,8 +111,8 @@
   }
 
   .text-large {
-    font-size: clamp(1.8rem, 7.2vw, 5.4rem);
-    line-height: 0.9;
+    font-size: clamp(1.4rem, 5.5vw, 4.2rem);
+    line-height: 0.95;
     letter-spacing: -0.04em;
   }
 

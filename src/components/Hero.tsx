@@ -14,7 +14,7 @@ const Hero = () => {
               <span className="block animate-reveal opacity-0 fill-mode-forwards delay-100">ASHAMBAR</span>
             </span>
             <span className="block overflow-hidden">
-              <span className="block animate-reveal opacity-0 fill-mode-forwards delay-200 italic-hover">CHATURVEDI.</span>
+              <span className="block animate-reveal opacity-0 fill-mode-forwards delay-200">CHATURVEDI.</span>
             </span>
           </h1>
         </div>
