@@ -29,13 +29,13 @@ const contactLinks = [
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-12 md:py-20 px-6 md:px-12 bg-foreground text-background">
+    <section id="contact" className="pt-12 md:pt-20 pb-6 md:pb-10 px-6 md:px-12 bg-foreground text-background">
       <div className="container-fluid max-w-screen-2xl mx-auto">
         <div className="mb-16 border-t-8 border-background pt-8">
           <h2 className="text-large text-background">Get In <br /> Touch</h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 mb-4">
           <div className="md:col-span-7">
 
             <p className="text-xl md:text-2xl font-medium max-w-xl opacity-60">
